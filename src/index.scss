@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+  color: rgba(245, 245, 245, 0.651);
+}
+
+body {
+  background-color: rgb(31, 28, 28);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 90vh;
+  #counter {
+    background-color: rgba(0, 89, 255, 0.233);
+    border-radius: 1rem;
+    box-shadow: 5px 5px 10px rgb(3, 3, 126);
+    width: 100%;
+    max-width: 20rem;
+    text-align: center;
+    padding: 2rem;
+    h1 {
+      padding-bottom: 1rem;
+      border-bottom: 0.2rem solid rgb(22, 77, 228);
+    }
+    p {
+      padding: 2.5rem 0;
+      font-size: 8rem;
+    }
+    .number {
+      display: flex;
+      justify-content: space-between;
+      padding-bottom: 1rem;
+      input {
+        border-radius: 1rem;
+        font-size: 1.5rem;
+        max-width: 75%;
+        text-align: center;
+        background-color: rgb(22, 77, 228);
+        font-weight: 100;
+        border: none;
+      }
+      button {
+        background-color: rgb(22, 77, 228);
+        padding: 0.5rem 1rem;
+        border-radius: 99rem;
+        font-weight: bold;
+        border: none;
+        font-size: 1rem;
+      }
+    }
+    .btns {
+      display: flex;
+      justify-content: space-around;
+      padding-bottom: 1rem;
+      button {
+        background-color: rgb(22, 77, 228);
+        padding: 0.5rem 1rem;
+        border-radius: 99rem;
+        font-weight: bold;
+        border: none;
+        font-size: 1rem;
+      }
+    }
+  }
+}
